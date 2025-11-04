@@ -1,38 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-PE">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>App tareas intermedio</title>
-    <link rel="shortcut icon" href="./assets/logo-transparente.ico" type="image/x-icon">
+    <title>App Tareas</title>
+    <link rel="shortcut icon" href="./assets/logo-transparente-tec.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-   <img src="./assets/logo.png" alt="logo de aplicacion" class="logo">
+    <img src="./assets/logo.png" alt="Logo TEC" class="logo" >
+    <h1>Aplicacion de tareas</h1>
+    <form action="#" id="inputUsuario">
+        <input type="text" placeholder="Escribe aqui tu tarea....." autoFocus>
+        <input type="submit" value="+" id="btnAgregar">
+    </form>
 
-   <h1>Aplicacion de Tareas</h1>
-   
-   <form action="#" id="inputUsuario">
-     <input type="text" placeholder="escribe tu tarea aqui ....." autofocus>
-     <input type="submit" value="+" id="btnAgregar">
-   </form>
-
-   <div id="lista" class="contenedor-lista">
-      
-     <div class="contenedor-tarea" id="1">
-       <label>
-         <input type="checkbox">
-         tarea 1
-       </label>
-       <img src="./assets/basurero.webp" alt="eliminar" class="btnEliminar">
-     </div>
-
-   </div>
-
-   <div id="stats">
-     tareas pendientes: 5 completadas: 3
-
-     <script src="./js/script.js"></script>
-   </div>
+    <div id="lista" class="contenedor-lista">
+        <!-- Lista de tareas -->    
+    </div>
+    <div id="stats">
+       
+    </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>
